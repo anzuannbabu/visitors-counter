@@ -1,0 +1,11 @@
+{
+	"name": "advintech/visitorsCounter",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Nassor Anzuann",
+			"email": "alanzuann@gmail.com"
+		}
+	],
+	"require": {}
+}
