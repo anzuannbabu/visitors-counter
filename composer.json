@@ -7,5 +7,6 @@
 			"email": "alanzuann@gmail.com"
 		}
 	],
+	"minimum-stability": "stable",
 	"require": {}
 }
