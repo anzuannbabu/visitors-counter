@@ -14,6 +14,15 @@
 			]
 		}
 	},
-	"minimum-stability": "dev",
+	"autoload": {
+		"psr-4": {
+			"Advintech\\VisitorsCounter\\" : "vendor/advintech/visitors-counter/src"
+		},
+		"files": [
+			"src/VisitorsCounterServiceProvider.php"
+		]
+	},
+	"minimum-stability": "stable",
 	"require": {}
 }
+
