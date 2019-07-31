@@ -19,7 +19,7 @@
 			"Advintech\\VisitorsCounter\\" : "src"
 		},
 		"files": [
-			"src"
+			"src/VisitorsCounterServiceProvider.php"
 		]
 	},
 	"minimum-stability": "stable",
