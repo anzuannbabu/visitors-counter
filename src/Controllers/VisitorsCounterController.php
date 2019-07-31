@@ -56,6 +56,17 @@ class VisitorsCounterController extends Controller {
 		return response()->json($data,200);
 	}
 
+	public function viewLogs(){
+		$data = [
+			'today' => number_format($this->today()->count()),
+			'yesterday' => number_format($this->yesterday()->count()),
+			'thisWeek' => number_format($this->thisWeek()->count()),
+			'thisMonth' => number_format($this->thisMonth()->count()),
+			'all' => number_format($this->all()->count())
+		];
+		return response()->json($data,200);
+	}
+
 	public function all()
 	{
 		return VisitorsCounter::all();

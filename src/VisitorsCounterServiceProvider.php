@@ -30,11 +30,17 @@ class VisitorsCounterServiceProvider extends ServiceProvider
         //load migrations
         $this->loadMigrationsFrom(__DIR__.'/Migrations');
 
-        //load models
+        //load views and publish them
+        $this->loadViewsFrom(__DIR__.'/Views','visitors-counter');
+
         
         //public assets files
         $this->publishes([
             __DIR__.'/assets' => public_path('vendor/visitors-counter'),
+            __DIR__.'/Views' => resource_path('views/vendor/visitors-counter'),
+            __DIR__.'/config/advintech_visitors_counter.php' => config_path('advintech_visitors_counter.php'),
         ], 'advintech-visitors-counter');
+
+
     }
 }
