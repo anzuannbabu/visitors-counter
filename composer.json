@@ -16,10 +16,10 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Advintech\\VisitorsCounter\\" : "vendor/advintech/visitors-counter/src"
+			"Advintech\\VisitorsCounter\\" : "src"
 		},
 		"files": [
-			"src/VisitorsCounterServiceProvider.php"
+			"src"
 		]
 	},
 	"minimum-stability": "stable",
