@@ -13,8 +13,8 @@ class VisitorsCounterServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('Advintech\VisitorsCounter\Controllers\VisitorsCounterController');
-        $this->app->make('Advintech\VisitorsCounter\Models\VisitorsCounter');
+        $this->app->make('Anzuann\VisitorsCounter\Controllers\VisitorsCounterController');
+        $this->app->make('Anzuann\VisitorsCounter\Models\VisitorsCounter');
     }
 
     /**

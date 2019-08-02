@@ -1,5 +1,5 @@
 {
-	"name": "advintech/visitors-counter",
+	"name": "anzuann/visitors-counter",
 	"license": "MIT",
 	"authors": [
 		{
@@ -10,13 +10,13 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"Advintech\\VisitorsCounter\\VisitorsCounterServiceProvider"
+				"Anzuann\\VisitorsCounter\\VisitorsCounterServiceProvider"
 			]
 		}
 	},
 	"autoload": {
 		"psr-4": {
-			"Advintech\\VisitorsCounter\\" : "src"
+			"Anzuann\\VisitorsCounter\\" : "src"
 		},
 		"files": [
 			"src/VisitorsCounterServiceProvider.php"
