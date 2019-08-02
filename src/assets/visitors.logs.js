@@ -1,7 +1,12 @@
 $(function(){
+	var getUrl = window.location;
+	var base_url = getUrl.origin;
+	//console.log("url ", getUrl.origin);
 	var client = new ClientJS(); // Create A New Client Object
 
-	var url = $('#base_url').val()+"/api/visitorsLog";
+	// var url = $('#base_url').val()+"/api/visitorsLog";
+	var url = base_url+"/api/visitorsLog";
+
 	
 	var data = {
 		browserId: client.getFingerprint(),
