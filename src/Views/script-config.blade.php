@@ -1,5 +1,5 @@
 <!-- advintech/visitors-counter scripts -->
-<input type="hidden" id="base_url" value="{{config('advintech_visitors_counter.base_url')}}">
+<input type="hidden" id="base_url" value="{{config('anzuann_visitors_counter.base_url')}}">
 <script
 src="https://code.jquery.com/jquery-3.4.1.min.js"
 integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="

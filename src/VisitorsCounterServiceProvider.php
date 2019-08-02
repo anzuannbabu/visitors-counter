@@ -1,6 +1,6 @@
 <?php
 
-namespace Advintech\VisitorsCounter;
+namespace Anzuann\VisitorsCounter;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -38,8 +38,8 @@ class VisitorsCounterServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/assets' => public_path('vendor/visitors-counter'),
             __DIR__.'/Views' => resource_path('views/vendor/visitors-counter'),
-            __DIR__.'/config/advintech_visitors_counter.php' => config_path('advintech_visitors_counter.php'),
-        ], 'advintech-visitors-counter');
+            __DIR__.'/config/anzuann_visitors_counter.php' => config_path('anzuann_visitors_counter.php'),
+        ], 'anzuann-visitors-counter');
 
 
     }

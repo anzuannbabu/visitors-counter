@@ -1,11 +1,11 @@
 <?php
-namespace Advintech\VisitorsCounter\Controllers;
+namespace Anzuann\VisitorsCounter\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
-use Advintech\VisitorsCounter\Models\VisitorsCounter;
+use Anzuann\VisitorsCounter\Models\VisitorsCounter;
 use Carbon\Carbon;
 
 

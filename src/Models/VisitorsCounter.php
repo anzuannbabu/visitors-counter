@@ -1,5 +1,5 @@
 <?php 
-namespace Advintech\VisitorsCounter\Models;
+namespace Anzuann\VisitorsCounter\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
