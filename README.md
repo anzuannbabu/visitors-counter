@@ -16,13 +16,13 @@ This is the laravel website visitors counter build on top of browser fingerprint
 ### Routes
      http://localhost:{port}/api/visitorsLog
 to get all visit logs, the logs object is as follows
-{
-"today": "0",
-"yesterday": "0",
-"thisWeek": "2",
-"thisMonth": "0",
-"all": "2"
-}
+#### {
+####      "today": "0",
+####      "yesterday": "0",
+####      "thisWeek": "2",
+####      "thisMonth": "0",
+####      "all": "2"
+#### }
 
 ## Hint: Make sure you have jquery plugin loaded to your website
 
