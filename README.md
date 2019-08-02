@@ -1,4 +1,4 @@
-# laravel-advintech-visitors-counter
+# laravel-visitors-counter
 This is the laravel website visitors counter build on top of browser fingerprint
 
 # Installation steps
