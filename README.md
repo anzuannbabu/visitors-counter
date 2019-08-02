@@ -1,10 +1,8 @@
 # laravel-advintech-visitors-counter
 This is the laravel website visitors counter build on top of browser fingerprint
 
-# Installation
-
-## steps
-### 1. run composer require advintech/visitors-counter "1.0.7"
+# Installation steps
+### 1. run composer require advintech/visitors-counter "1.0.8"
 
 ### 2. configure your database in .env file then run "$ php artisan config:clear"
 
@@ -15,8 +13,16 @@ This is the laravel website visitors counter build on top of browser fingerprint
 ### 5. copy the following to the footer of the page you want to track visits
      @include("vendor.visitors-counter.script-config")
 
-### 6. configure the base url on which the app is running, dont forget to include port in url ex: http://localhost:8089
-
+### Routes
+     http://localhost:{port}/api/visitorsLog
+to get all visit logs, the logs object is as follows
+{
+"today": "0",
+"yesterday": "0",
+"thisWeek": "2",
+"thisMonth": "0",
+"all": "2"
+}
 
 ## Hint: Make sure you have jquery plugin loaded to your website
 
