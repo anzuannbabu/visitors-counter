@@ -2,7 +2,7 @@
 This is the laravel website visitors counter build on top of browser fingerprint
 
 # Installation steps
-### 1. run composer require advintech/visitors-counter "1.0.8"
+### 1. run composer require anzuann/visitors-counter "1.0.9"
 
 ### 2. configure your database in .env file then run "$ php artisan config:clear"
 
